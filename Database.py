@@ -7,7 +7,7 @@ mydb = mysql.connector.connect(
   password="",
   database="sajith"
 )
-
+ 
 # Create a cursor object
 mycursor = mydb.cursor()
 
