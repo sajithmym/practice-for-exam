@@ -18,8 +18,8 @@ mycursor.execute('''CREATE TABLE IF NOT EXISTS employees
                 age INTEGER NOT NULL)''')
 
 # Insert values into the table
-mycursor.execute("INSERT INTO employees (name, age) VALUES (%s, %s)", ('John', 35))
-mycursor.execute("INSERT INTO employees (name, age) VALUES (%s, %s)", ('Jane', 28))
+mycursor.execute("INSERT INTO employees (name, age) VALUES (%s, %s)", ('sajith', 35))
+mycursor.execute("INSERT INTO employees (name, age) VALUES (%s, %s)", ('musha', 28))
 mydb.commit()  # commit the changes to the database
 
 # Fetch the results
